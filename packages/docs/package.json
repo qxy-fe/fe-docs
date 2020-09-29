@@ -1,0 +1,15 @@
+{
+  "name": "@qxy/docs",
+  "version": "0.0.0",
+  "private": true,
+  "description": "fe docs",
+  "keywords": [
+    "docs"
+  ],
+  "scripts": {
+    "dev": "vuepress dev src"
+  },
+  "devDependencies": {
+    "vuepress": "^1.6.0"
+  }
+}

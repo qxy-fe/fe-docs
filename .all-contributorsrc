@@ -1,0 +1,24 @@
+{
+  "projectName": "fe-docs",
+  "projectOwner": "ntnyq",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "commitConvention": "angular",
+  "contributors": [
+    {
+      "login": "ntnyq",
+      "name": "ntnyq",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/22659150?v=4",
+      "profile": "https://ntnyq.com/",
+      "contributions": [
+        "doc"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7
+}

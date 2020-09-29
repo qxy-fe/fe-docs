@@ -1,0 +1,41 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "packages/docs"
+  ],
+  "scripts": {
+    "contributors:add": "all-contributors add",
+    "contributors:generate": "all-contributors generate",
+    "pretty": "prettier --write packages"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional",
+      "@commitlint/config-lerna-scopes"
+    ]
+  },
+  "lint-staged": {
+    "*.{js,ts,json,md}": "prettier --write",
+    "package.json": "sort-package-json"
+  },
+  "prettier": "@ntnyq/prettier-config",
+  "devDependencies": {
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-conventional": "^11.0.0",
+    "@commitlint/config-lerna-scopes": "^11.0.0",
+    "@ntnyq/prettier-config": "^0.1.0",
+    "all-contributors-cli": "^6.17.4",
+    "husky": "^4.3.0",
+    "lerna": "^3.22.1",
+    "lint-staged": "^10.4.0",
+    "prettier": "^2.1.2",
+    "sort-package-json": "^1.46.0"
+  }
+}
