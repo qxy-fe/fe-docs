@@ -19,10 +19,46 @@ module.exports = {
       { text: '首页', link: '/' },
       { text: '代码风格', link: '/code-style/' },
       { text: '单元测试', link: '/unit-test/' },
-      { text: '对接标准', link: '/unit-test/' },
-      { text: '新人指南', link: '/unit-test/' },
-      { text: '工具插件', link: '/unit-test/' },
+      { text: '对接标准', link: '/co-worker/' },
+      { text: '新人指南', link: '/guide-book/' },
+      { text: '工具插件', link: '/utils-lib/git' },
     ],
-    sidebar: {},
+    sidebar: {
+      '/code-style/': [
+        {
+          title: '代码风格',
+          collapsable: false,
+          children: [''],
+        },
+      ],
+      '/unit-test/': [
+        {
+          title: '单元测试',
+          collapsable: false,
+          children: [''],
+        },
+      ],
+      '/co-worker/': [
+        {
+          title: '对接标准',
+          collapsable: false,
+          children: [''],
+        },
+      ],
+      '/guide-book/': [
+        {
+          title: '新人指南',
+          collapsable: false,
+          children: [''],
+        },
+      ],
+      '/utils-lib/': [
+        {
+          title: '工具插件',
+          collapsable: false,
+          children: ['git'],
+        },
+      ],
+    },
   },
 }

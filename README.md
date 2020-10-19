@@ -11,7 +11,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://ntnyq.com/"><img src="https://avatars2.githubusercontent.com/u/22659150?v=4?s=100" width="100px;" alt=""/><br /><sub><b>ntnyq</b></sub></a><br /><a href="https://github.com/ntnyq/fe-docs/commits?author=ntnyq" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://ntnyq.com/"><img src="https://avatars2.githubusercontent.com/u/22659150?v=4?s=100" width="100px;" alt=""/><br /><sub><b>ntnyq</b></sub></a><br /><a href="https://github.com/ntnyq/fe-docs/commits?author=ntnyq" title="Documentation">📖</a> <a href="https://github.com/ntnyq/fe-docs/commits?author=ntnyq" title="Code">💻</a> <a href="#ideas-ntnyq" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/ntnyq/fe-docs/pulls?q=is%3Apr+reviewed-by%3Antnyq" title="Reviewed Pull Requests">👀</a></td>
   </tr>
 </table>
 
