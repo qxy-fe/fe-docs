@@ -4,13 +4,17 @@
 
 module.exports = {
   base: '/fe-docs/',
+
   title: '前端知识库指南',
+
   description: '前端知识库指南',
-  plugins: ['@vuepress/back-to-top'],
+
+  plugins: ['@vuepress/back-to-top', 'copy-code', 'right-anchor'],
+
   themeConfig: {
     sidebarDepth: 2,
-    repo: 'goy-fe/fe-docs',
-    docsRepo: 'goy-fe/fe-docs',
+    repo: 'qxy-fe/fe-docs',
+    docsRepo: 'qxy-fe/fe-docs',
     docsDir: 'packages/docs/src',
     docsBranch: 'master',
     lastUpdated: '最后更新时间',
@@ -57,7 +61,7 @@ module.exports = {
         {
           title: '工具插件',
           collapsable: false,
-          children: ['git'],
+          children: ['git', 'vscode', 'eslint', 'husky', 'lint-staged'],
         },
       ],
     },

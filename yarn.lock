@@ -2167,6 +2167,13 @@
   dependencies:
     lodash.debounce "^4.0.8"
 
+"@vuepress/plugin-back-to-top@^1.7.1":
+  version "1.7.1"
+  resolved "https://registry.npmjs.org/@vuepress/plugin-back-to-top/-/plugin-back-to-top-1.7.1.tgz#8bdc4a2de95f8244f167b3b3066c2610b88aabeb"
+  integrity sha512-Hw/5kQjqtkHEstifcq4gpdVwS38C3ecruLCUibq3YEES6DJUYZ8tN1oo3FTugYgpXsyn3HxWftyalozcZ2IutA==
+  dependencies:
+    lodash.debounce "^4.0.8"
+
 "@vuepress/plugin-last-updated@1.7.1":
   version "1.7.1"
   resolved "https://registry.npmjs.org/@vuepress/plugin-last-updated/-/plugin-last-updated-1.7.1.tgz#668c55daa6b8bc1d8ee42cdb4169cf67c01b6e97"
@@ -11048,6 +11055,18 @@ vuepress-plugin-container@^2.0.2:
   dependencies:
     "@vuepress/shared-utils" "^1.2.0"
     markdown-it-container "^2.0.0"
+
+vuepress-plugin-copy-code@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.npmjs.org/vuepress-plugin-copy-code/-/vuepress-plugin-copy-code-0.0.1.tgz#569849f00de8178d5875adc1c11591c82630e6fa"
+  integrity sha512-l47WG+kQK6qujLDkXuftegDOWfuBbgw4oybtdI2G1sbveE3vgbjZWLCHOlCUki9z8IAzcGt6I36ESU/f5dinrw==
+
+vuepress-plugin-right-anchor@^0.4.4:
+  version "0.4.4"
+  resolved "https://registry.npmjs.org/vuepress-plugin-right-anchor/-/vuepress-plugin-right-anchor-0.4.4.tgz#81d14ce1f21b037529fc9098d3cb091c668e605f"
+  integrity sha512-NjxAtPfAbkCNDhSlEGHEoSFjPcH5xlXvtoBZXp0u7LzgdlgTwvDVPnw10RvIPajNNwxfC2g6zLrOzXP8LIauRg==
+  dependencies:
+    lodash.debounce "^4.0.8"
 
 vuepress-plugin-smooth-scroll@^0.0.3:
   version "0.0.3"

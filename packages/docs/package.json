@@ -11,6 +11,9 @@
     "dev": "vuepress dev src --open"
   },
   "devDependencies": {
-    "vuepress": "^1.7.1"
+    "@vuepress/plugin-back-to-top": "^1.7.1",
+    "vuepress": "^1.7.1",
+    "vuepress-plugin-copy-code": "^0.0.1",
+    "vuepress-plugin-right-anchor": "^0.4.4"
   }
 }
