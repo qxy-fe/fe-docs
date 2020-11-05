@@ -3,13 +3,14 @@
  */
 
 module.exports = {
+  base: '/fe-docs/',
   title: '前端知识库指南',
   description: '前端知识库指南',
   plugins: ['@vuepress/back-to-top'],
   themeConfig: {
     sidebarDepth: 2,
-    // repo: '',
-    // docsRepo: '',
+    repo: 'goy-fe/fe-docs',
+    docsRepo: 'goy-fe/fe-docs',
     docsDir: 'packages/docs/src',
     docsBranch: 'master',
     lastUpdated: '最后更新时间',
