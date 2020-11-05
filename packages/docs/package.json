@@ -7,7 +7,7 @@
     "qxy-docs"
   ],
   "scripts": {
-    "build": "vuepress build src --dest ../../site",
+    "build": "vuepress build src --dest ./site",
     "dev": "vuepress dev src --open"
   },
   "devDependencies": {

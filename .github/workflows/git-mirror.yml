@@ -12,3 +12,11 @@ jobs:
         with:
           source-repo: 'git@github.com:qxy-fe/fe-docs.git'
           destination-repo: 'git@gitee.com:ntnyq/fe-docs.git'
+
+      - name: Build Gitee Pages
+        uses: yanglbme/gitee-pages-action@master
+        with:
+          gitee-username: ntnyq
+          gitee-password: ${{ secrets.GITEE_PASSWORD }}
+          gitee-repo: ntnyq/fe-docs
+          branch: gh-pages
