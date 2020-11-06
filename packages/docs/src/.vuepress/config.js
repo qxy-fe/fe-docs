@@ -33,7 +33,7 @@ module.exports = {
         {
           title: '代码风格',
           collapsable: false,
-          children: [''],
+          children: ['html'],
         },
       ],
       '/unit-test/': [
