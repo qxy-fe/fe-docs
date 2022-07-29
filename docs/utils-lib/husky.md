@@ -1,4 +1,4 @@
-# Huksy
+# husky
 
 为 shell 脚本添加 **执行** 权限。
 
